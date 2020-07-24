@@ -1,3 +1,10 @@
+# Example LoadSpinner
+
+you can find load spinner designs at https://loading.io/css/
+replace the html as the return from LoadSpinner.js and the css in LoadSpinner.css
+
+
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
