@@ -1,5 +1,5 @@
 # React LoadSpinner
-This spinner accompanies my blog post on how to make a quick load spinner for React
+This spinner accompanies my [blog post](https://dev.to/robotspacefish/quick-and-easy-load-spinner-tutorial-for-react-with-hooks-31op) on how to make a quick load spinner for React
 
 You can find load spinner designs at [https://loading.io/css/](https://loading.io/css/). 
 
