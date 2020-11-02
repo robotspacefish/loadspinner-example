@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import './App.css';
 import LoadSpinner from './LoadSpinner/LoadSpinner';
 
-
 function App() {
   // alternatively to useState, you could make
   // this a class and use state = {}, setState, etc
-  const [isLoaded, setIsLoaded] = useState();
+  const [isLoaded, setIsLoaded] = useState(false);
 
   const handleIsLoadedToggle = () => {
-    isLoaded ? setIsLoaded(false) : setIsLoaded(true)
+    setIsLoaded(currentIsLoaded => !currentIsLoaded)
   };
 
   return (
@@ -19,5 +18,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
